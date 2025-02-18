@@ -52,7 +52,7 @@ const Hero = () => {
           attire__it s a from of self-expression
         </p>
 
-        <button className="bg-Primary py-2 px-6 text-white text-lg font-medium rounded-full border-[1px] border-dark border-r-[3px] border-b-[3px]">
+        <button className="bg-Primary py-2 px-6 text-white text-lg font-medium rounded-full border-[1px] border-dark border-r-[3px] border-b-[3px] hover:scale-105 transition-all">
           Shop Now
         </button>
       </div>

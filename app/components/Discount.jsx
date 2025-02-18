@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
 
-import ima1 from "/public/assets/images/img1 (1) (1).jpg";
+import ima1 from "/public/assets/images/img1-min.jpg";
 
 const Discount = () => {
   return (
     <div class="bg-lightPink p-4 flex flex-col md:flex-row gap-6 md:gap-0 justify-between rounded-lg my-20">
       <div class="basis-1/2 bg-lightPurple rounded-md">
-        <Image class="w-[60%] m-auto" src={ima1} alt="" />
+        <Image class=" m-auto h-full object-cover" src={ima1} alt="" />
       </div>
       <div class="basis-1/2 flex flex-col items-center justify-center text-center">
         <div class="w-[200px] h-[200px] rounded-full bg-white flex flex-col justify-center items-center gap-2">
@@ -21,19 +21,19 @@ const Discount = () => {
         <div class="flex gap-4 md:gap-10 mt-10 mb-6">
           <div class="flex items-end gap-[2px] md:gap-2">
             <p class="text-xl md:text-5xl leading-none">5</p>
-            <p class="text-sm text-textDark leading-none">Day</p>
+            <p class="text-sm text-textDark leading-none">Days</p>
+          </div>
+          <div class="flex items-end gap-[2px] md:gap-2">
+            <p class="text-xl md:text-5xl leading-none">20</p>
+            <p class="text-sm text-textDark leading-none">Hours</p>
           </div>
           <div class="flex items-end gap-[2px] md:gap-2">
             <p class="text-xl md:text-5xl leading-none">5</p>
-            <p class="text-sm text-textDark leading-none">Day</p>
+            <p class="text-sm text-textDark leading-none">Minute</p>
           </div>
           <div class="flex items-end gap-[2px] md:gap-2">
             <p class="text-xl md:text-5xl leading-none">5</p>
-            <p class="text-sm text-textDark leading-none">Day</p>
-          </div>
-          <div class="flex items-end gap-[2px] md:gap-2">
-            <p class="text-xl md:text-5xl leading-none">5</p>
-            <p class="text-sm text-textDark leading-none">Day</p>
+            <p class="text-sm text-textDark leading-none">Secound</p>
           </div>
         </div>
 

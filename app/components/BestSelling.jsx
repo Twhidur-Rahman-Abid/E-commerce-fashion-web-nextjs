@@ -24,38 +24,38 @@ const BestSelling = () => {
 
       {/* card */}
       <div className="space-y-4 md:space-y-0 md:flex justify-between gap-6 mt-10">
-        <div className="card basis-1/3 relative hover:border-2 hover:border-r-4 hover:border-b-4 transition-all border-dark rounded-lg relative overflow-hidden h-[350px] md:h-[450px]">
+        <div className="card basis-1/3  hover:border-2 hover:border-r-4 hover:border-b-4 transition-all border-dark rounded-lg relative overflow-hidden h-[350px] md:h-[450px]">
           <Image
             placeholder="blur"
             src={c6}
             className="w-full h-full object-cover rounded-sm"
             alt="c6"
           />
-          <button className="bg-Primary py-2 px-6 text-white text-lg font-medium rounded-full border-[1px] border-dark border-r-[3px] border-b-[3px] ml-6">
+          <button className="bg-Primary py-2 px-6 text-white text-lg font-medium rounded-full border-[1px] border-dark border-r-[3px] border-b-[3px] ml-6 absolute bottom-8 left-3">
             Add To Card
             <i className="w-[80px] text-white ri-arrow-right-line"></i>
           </button>
         </div>
-        <div className="card basis-1/3 relative hover:border-2 hover:border-r-4 hover:border-b-4 transition-all border-dark rounded-lg relative overflow-hidden h-[450px]">
+        <div className="card basis-1/3  hover:border-2 hover:border-r-4 hover:border-b-4 transition-all border-dark rounded-lg relative overflow-hidden h-[450px]">
           <Image
             src={c2}
             className="w-full h-full object-cover rounded-sm"
             alt="c2"
             placeholder="blur"
           />
-          <button className="bg-Primary py-2 px-6 text-white text-lg font-medium rounded-full border-[1px] border-dark border-r-[3px] border-b-[3px] ml-6">
+          <button className="bg-Primary py-2 px-6 text-white text-lg font-medium rounded-full border-[1px] border-dark border-r-[3px] border-b-[3px] ml-6 absolute bottom-8 left-3">
             Add To Card
             <i className="w-[80px] text-white ri-arrow-right-line"></i>
           </button>
         </div>
-        <div className="card basis-1/3 relative hover:border-2 hover:border-r-4 hover:border-b-4 transition-all border-dark rounded-lg relative overflow-hidden h-[450px]">
+        <div className="card basis-1/3  hover:border-2 hover:border-r-4 hover:border-b-4 transition-all border-dark rounded-lg relative overflow-hidden h-[450px]">
           <Image
             placeholder="blur"
             src={c3}
             className="w-full h-full object-cover rounded-sm"
             alt="c3"
           />
-          <button className="bg-Primary py-2 px-6 text-white text-lg font-medium rounded-full border-[1px] border-dark border-r-[3px] border-b-[3px] ml-6">
+          <button className="bg-Primary py-2 px-6 text-white text-lg font-medium rounded-full border-[1px] border-dark border-r-[3px] border-b-[3px] ml-6 absolute bottom-8 left-3">
             Add To Card
             <i className="w-[80px] text-white ri-arrow-right-line"></i>
           </button>

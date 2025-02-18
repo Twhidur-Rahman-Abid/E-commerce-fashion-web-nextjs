@@ -4,6 +4,7 @@ import Button from "./components/Button";
 import Image from "next/image";
 
 import clothStand from "/public/assets/images/cloth-stand (1) (1).jpg";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +19,7 @@ export default function RootLayout({ children }) {
       <body className={inter.class}>
         <nav className="h-[10vh] flex items-center justify-between px-[5%] bg-Primary">
           <h1 className="text-xl font-medium">
-            <a href="/index.html"> Logo </a>
+            <Link href="/">Logo</Link>
           </h1>
 
           <ul className="hidden md:flex md:gap-10 lg:gap-20 text-white">
@@ -28,7 +29,7 @@ export default function RootLayout({ children }) {
             </li>
             <li>New Arrival</li>
             <li>
-              <a href="/about-us.html">About</a>
+              <Link href="/about">About</Link>
             </li>
           </ul>
 

@@ -5,6 +5,7 @@ import Image from "next/image";
 
 import clothStand from "/public/assets/images/cloth-stand (1) (1).jpg";
 import Link from "next/link";
+import Navbar from "./components/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,31 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.class}>
-        <nav className="h-[10vh] flex items-center justify-between px-[5%] bg-Primary">
-          <h1 className="text-xl font-medium">
-            <Link href="/">Logo</Link>
-          </h1>
-
-          <ul className="hidden md:flex md:gap-10 lg:gap-20 text-white">
-            <li>Collection</li>
-            <li>
-              <a href="/product-details.html">Shop</a>
-            </li>
-            <li>New Arrival</li>
-            <li>
-              <Link href="/about">About</Link>
-            </li>
-          </ul>
-
-          <div className="hidden md:flex gap-4 text-white items-center">
-            <p>Login</p>
-            <Button variante="secondary">Get Started</Button>
-          </div>
-
-          <div className="md:hidden">
-            <i className="text-lg text-white ri-menu-3-line nav-icon"></i>
-          </div>
-        </nav>
+        <Navbar />
 
         <main classNameName="bg-bg">
           {children}
